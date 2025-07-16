@@ -3,9 +3,9 @@
 ---
 ## Author Information
 
-| Created | Reviewer |
-|---------|----------|
- Aryan mishra | Siddharth
+| Created | pre Reviewer | L0 Reviewer | L1 Reviewer | L2 Reviewer |
+|---------|--------------|-------------|-------------|-------------|
+ Aryan mishra | Siddharth | Ram Ratan  | Gaurav Singla | Mahesh Kumar
  
  ---
  ## Table of Contents
@@ -27,13 +27,8 @@
      ---
     
  ## introduction
-This document provides a Standard Operating Procedure (SOP) for **installing**, **updating**, and **removing software** on **Ubuntu** systems using the `apt` package manager.
+This document provides a Standard Operating Procedure (SOP) for **installing**, **updating**, and **removing software** on **Ubuntu** systems using the `apt` package manager.It also includes commonly used commands and flags.
 
----
-
-## Objective
-
-This SOP outlines the standard procedure for installing, updating, and removing software on Ubuntu systems using the APT (Advanced Package Tool) package manager. It also includes commonly used commands and flags.
 
 ---
 
@@ -105,13 +100,11 @@ dpkg -l
 ---
 
 ## 12. Best Practices
-- Update system regularly.
 
-- Prefer official Ubuntu repositories.
-
-- Remove unused packages.
-
-- Backup config files before purge.
-
-- Avoid sudo apt upgrade -y on production servers without testing.
----
+| #   | Practice                                                                 |
+|-----|--------------------------------------------------------------------------|
+| 1.  | Update system regularly.                                                 |
+| 2.  | Prefer official Ubuntu repositories.                                     |
+| 3.  | Remove unused packages.                                                  |
+| 4.  | Backup config files before purge.                                        |
+| 5.  | Avoid `sudo apt upgrade -y` on production servers without testing.       |
