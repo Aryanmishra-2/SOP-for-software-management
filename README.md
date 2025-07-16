@@ -4,7 +4,8 @@
 **Maintained By:** Aryan mishra
  
  ---
-- This document provides a Standard Operating Procedure (SOP) for **installing**, **updating**, and **removing software** on **Ubuntu** systems using the `apt` package manager.
+ # intro
+This document provides a Standard Operating Procedure (SOP) for **installing**, **updating**, and **removing software** on **Ubuntu** systems using the `apt` package manager.
 
 ---
 
