@@ -8,21 +8,21 @@
  Aryan mishra | Siddharth | Ram Ratan  | Gaurav Singla | Mahesh Kumar
  
  ---
- ## Table of Contents
-   - introduction
-   - Objective
-   - Update the Package Index
-   - Upgrade Installed Packages
-   - Install Software Packages
-   - Common Flags
-   - Check if a Package is Installed
-   - Search for a Package
-   - View Package Information
-   - Remove a Package
-   - Clean Up Unused Files
-   - Update Only a Specific Package
-   - List Installed Packages
-   - Best Practices
+## Table of Contents
+- [Introduction](#introduction)
+- [Update the Package Index](#update-the-package-index)
+- [Upgrade Installed Packages](#upgrade-installed-packages)
+- [Install Software Packages](#install-software-packages)
+- [Common Flags](#common-flags)
+- [Check if a Package is Installed](#check-if-a-package-is-installed)
+- [Search for a Package](#search-for-a-package)
+- [View Package Information](#view-package-information)
+- [Remove a Package](#remove-a-package)
+- [Clean Up Unused Files](#clean-up-unused-files)
+- [Update Only a Specific Package](#update-only-a-specific-package)
+- [List Installed Packages](#list-installed-packages)
+- [Best Practices](#best-practices)
+
 
      ---
     
