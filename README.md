@@ -1,120 +1,99 @@
-# Standard Operating Procedure (SOP) for Software Management
-  
+# SOP for Software Management in Ubuntu
+
+---
 **Maintained By:** Aryan mishra
+ 
+ ---
+- This document provides a Standard Operating Procedure (SOP) for **installing**, **updating**, and **removing software** on **Ubuntu** systems using the `apt` package manager.
 
 ---
 
-## Purpose
+## Objective
 
-This SOP outlines the standardized process for acquiring, deploying, maintaining, updating, and decommissioning software in order to ensure:
-
-- Operational consistency  
-- Security & compliance  
-- Effective software lifecycle management  
+This SOP outlines the standard procedure for installing, updating, and removing software on Ubuntu systems using the APT (Advanced Package Tool) package manager. It also includes commonly used commands and flags.
 
 ---
 
-##  Scope
+## 1. Update the Package Index
 
-Applies to all software used in the organization:
+Before any software installation or upgrade, update the local package index:
 
-- Operating Systems  
-- Licensed or Open-Source Software  
-- Custom/Internal Tools  
-- SaaS (Cloud-Based Software)  
-- Server, Desktop & Mobile Apps  
+```bash
+sudo apt update
+```
+- sudo: Runs command as superuser.
 
+- apt: Command-line package manager.
+
+- update: Fetches the latest list of packages.
+
+  ---
+## 2. Upgrade Installed Packages
+```bash
+sudo apt upgrade -y
+```
 ---
+## 3. Install Software Packages
+```bash
+sudo apt install <package-name> -y
+```
+### Common Flags:
 
-##  Roles & Responsibilities
+- -y :  Automatic yes to all prompts
 
-| Role                | Responsibility                                                   |
-|---------------------|-------------------------------------------------------------------|
-| **IT Manager**       | Approves requests, manages licenses, and audits                  |
-| **Sys Admins**       | Installs, updates, and maintains software                        |
-| **Security Officer** | Ensures patching and vulnerability mitigation                    |
-| **Dev Team**         | Maintains internal tools and version control                     |
-| **All Users**        | Use software responsibly and report issues                       |
-
+ ---
+## 3. Check if a Package is Installed
+```bash
+dpkg -l | grep <package-name>
+```
 ---
-
-## Procedure
-
-### 1. Software Acquisition
-- Fill out a **Software Request Form (SRF)**.
-- IT Team evaluates compatibility, licensing, and security.
-- Approval from management is required for paid software.
-- Acquire software only via authorized vendors.
-
-### 2. Installation
-- Only IT/Admins can install software.
-- Follow official installation guides.
-- Log installation details.
-- Assign license to user/device.
-
-### 3. Licensing & Compliance
-- Track all license keys and renewal dates.
-- Ensure usage doesn't exceed purchase count.
-- Perform periodic audits.
-
-### 4. Updates & Patching
-- Apply critical patches within 48 hours.
-- Monthly/quarterly update schedules.
-- Maintain a patch/update log.
-
-### 5. Monitoring & Usage
-- Monitor usage and remove unused/unauthorized software.
-- Enforce usage policies via endpoint security tools.
-
-### 6. Custom/Internal Tools
-- Use Git for version control.
-- Follow CI/CD for deployment.
-- Maintain README, changelog, and usage guide.
-- Conduct regular code reviews & security audits.
-
-### 7. Decommissioning
-- Securely uninstall and clean residual data.
-- Update license and asset records.
-- Archive data if needed.
-
+ 
+ ## 5. Search for a Package
+ ```bash
+apt search <package-name>
+```
 ---
-
-## Documentation
-
-Maintain the following:
-- Software Request Forms  
--  License Keys & Inventory  
--  Installation Logs  
--  Update/Patch History  
--  Audit Reports  
-
+##  6. View Package Information
+```bash
+apt show <package-name>
+```
 ---
-
-## Security & Access Control
-
-- Admin rights required for installations  
-- Role-based access (RBAC)  
-- Endpoint protection must be enabled  
-- Prevent unauthorized software (shadow IT)
-
+##  7. Remove a Package
+```bash
+sudo apt remove <package-name> -y
+```
 ---
-
-## Compliance
-
-This SOP aligns with:
--  Organizational IT Policies  
--  Licensing Agreements  
--  Security Standards (ISO 27001, etc.)  
--  Data Privacy Laws (e.g., GDPR)
-
+## Clean Up Unused Files
+```bash
+sudo apt autoremove        # Remove unused dependencies
+sudo apt autoclean         # Clean up partial package files
+sudo apt clean             # Clear local package cache
+```
 ---
-
-##  Violations
-
-Non-compliance may lead to:
--  Access restrictions  
-- Disciplinary/legal actions  
-- Penalties for license misuse  
-
+## 9. Update Only a Specific Package
+```bash
+sudo apt install --only-upgrade <package-name>
+```
 ---
+## 10. List Installed Packages
+```bash
+dpkg -l
+```
+---
+## 11. Check Logs for Package Operations
+```bash
+cat /var/log/apt/history.log
+cat /var/log/dpkg.log
+```
+---
+## 12. Best Practices
+- Update system regularly.
 
+- Prefer official Ubuntu repositories.
+
+- Remove unused packages.
+
+- Backup config files before purge.
+
+- Avoid sudo apt upgrade -y on production servers without testing.
+---
