@@ -32,7 +32,7 @@ This document provides a Standard Operating Procedure (SOP) for **installing**, 
 
 ---
 
-## 1. Update the Package Index
+## Update the Package Index
 
 Before any software installation or upgrade, update the local package index:
 
@@ -46,12 +46,12 @@ sudo apt update
 - update: Fetches the latest list of packages.
 
   ---
-## 2. Upgrade Installed Packages
+## Upgrade Installed Packages
 ```bash
 sudo apt upgrade -y
 ```
 ---
-## 3. Install Software Packages
+## Install Software Packages
 ```bash
 sudo apt install <package-name> -y
 ```
@@ -60,23 +60,23 @@ sudo apt install <package-name> -y
 - -y :  Automatic yes to all prompts
 
  ---
-## 3. Check if a Package is Installed
+## Check if a Package is Installed
 ```bash
 dpkg -l | grep <package-name>
 ```
 ---
  
- ## 5. Search for a Package
+ ## Search for a Package
  ```bash
 apt search <package-name>
 ```
 ---
-##  6. View Package Information
+## View Package Information
 ```bash
 apt show <package-name>
 ```
 ---
-##  7. Remove a Package
+## Remove a Package
 ```bash
 sudo apt remove <package-name> -y
 ```
@@ -88,20 +88,20 @@ sudo apt autoclean         # Clean up partial package files
 sudo apt clean             # Clear local package cache
 ```
 ---
-## 9. Update Only a Specific Package
+## Update Only a Specific Package
 ```bash
 sudo apt install --only-upgrade <package-name>
 ```
 ---
-## 10. List Installed Packages
+## List Installed Packages
 ```bash
 dpkg -l
 ```
 ---
 
-## 12. Best Practices
+## Best Practices
 
-| #   | Practice                                                                 |
+| no   | Practice                                                                 |
 |-----|--------------------------------------------------------------------------|
 | 1.  | Update system regularly.                                                 |
 | 2.  | Prefer official Ubuntu repositories.                                     |
