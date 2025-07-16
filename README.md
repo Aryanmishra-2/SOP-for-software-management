@@ -1,10 +1,32 @@
 # SOP for Software Management in Ubuntu
 
 ---
-**Maintained By:** Aryan mishra
+## Author Information
+
+| Created | Reviewer |
+|---------|----------|
+ Aryan mishra | Siddharth
  
  ---
- # intro
+ ## Table of Contents
+   - introduction
+   - Objective
+   - Update the Package Index
+   - Upgrade Installed Packages
+   - Install Software Packages
+   - Common Flags
+   - Check if a Package is Installed
+   - Search for a Package
+   - View Package Information
+   - Remove a Package
+   - Clean Up Unused Files
+   - Update Only a Specific Package
+   - List Installed Packages
+   - Best Practices
+
+     ---
+    
+ ## introduction
 This document provides a Standard Operating Procedure (SOP) for **installing**, **updating**, and **removing software** on **Ubuntu** systems using the `apt` package manager.
 
 ---
@@ -81,12 +103,7 @@ sudo apt install --only-upgrade <package-name>
 dpkg -l
 ```
 ---
-## 11. Check Logs for Package Operations
-```bash
-cat /var/log/apt/history.log
-cat /var/log/dpkg.log
-```
----
+
 ## 12. Best Practices
 - Update system regularly.
 
