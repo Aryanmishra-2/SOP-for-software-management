@@ -113,9 +113,8 @@ dpkg -l
 ---
 ## References
 
-- Ubuntu Official Documentation: https://help.ubuntu.com/
-- APT Package Manager Guide – Ubuntu Wiki: https://wiki.ubuntu.com/Apt
-- Debian APT User Manual: https://manpages.debian.org/bullseye/apt/apt.8.en.html
-- Snapcraft Documentation (Snap Package Manager): https://snapcraft.io/docs
-- Linuxize – Tutorials and Guides for Ubuntu: https://linuxize.com/
-- Command Line Tools Documentation: https://man7.org/linux/man-pages/
+- Ubuntu Official Documentation – Package Management: https://help.ubuntu.com/lts/serverguide/apt.html
+- APT – Advanced Package Tool (Ubuntu Wiki): https://wiki.ubuntu.com/Apt
+- Debian Manpages – apt(8): https://manpages.debian.org/bullseye/apt/apt.8.en.html
+- napcraft Docs – Installing Software Using Snap: https://snapcraft.io/docs/installing-snap-on-ubuntu
+- inuxize – How to Use apt Command in Ubuntu: https://linuxize.com/post/how-to-use-apt-command-in-ubuntu/
