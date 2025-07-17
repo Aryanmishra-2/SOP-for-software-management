@@ -119,7 +119,7 @@ This Standard Operating Procedure (SOP) provides a structured approach for manag
 ---
 ## References
 
-- Ubuntu Official Documentation – Package Management: https://help.ubuntu.com/lts/serverguide/apt.html
+- Ubuntu Official Documentation Package Management: https://help.ubuntu.com/lts/serverguide/apt.html
 - APT – Advanced Package Tool (Ubuntu Wiki): https://wiki.ubuntu.com/Apt
 - Debian Manpages – apt(8): https://manpages.debian.org/bullseye/apt/apt.8.en.html
 - napcraft Docs – Installing Software Using Snap: https://snapcraft.io/docs/installing-snap-on-ubuntu
