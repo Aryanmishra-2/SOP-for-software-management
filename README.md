@@ -117,4 +117,3 @@ dpkg -l
 - APT – Advanced Package Tool (Ubuntu Wiki): https://wiki.ubuntu.com/Apt
 - Debian Manpages – apt(8): https://manpages.debian.org/bullseye/apt/apt.8.en.html
 - napcraft Docs – Installing Software Using Snap: https://snapcraft.io/docs/installing-snap-on-ubuntu
-- inuxize – How to Use apt Command in Ubuntu: https://linuxize.com/post/how-to-use-apt-command-in-ubuntu/
