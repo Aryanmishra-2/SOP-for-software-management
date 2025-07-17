@@ -64,7 +64,7 @@ sudo apt install <package-name> -y
  ---
 ## Check if a Package is Installed
 ```bash
-dpkg -l | grep <package-name>
+<package-name> --version
 ```
 ---
  
