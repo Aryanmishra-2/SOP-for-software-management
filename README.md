@@ -118,5 +118,4 @@ dpkg -l
 - Debian APT User Manual: https://manpages.debian.org/bullseye/apt/apt.8.en.html
 - Snapcraft Documentation (Snap Package Manager): https://snapcraft.io/docs
 - Linuxize – Tutorials and Guides for Ubuntu: https://linuxize.com/
-- DigitalOcean Community Tutorials: https://www.digitalocean.com/community/tutorials
 - Command Line Tools Documentation: https://man7.org/linux/man-pages/
