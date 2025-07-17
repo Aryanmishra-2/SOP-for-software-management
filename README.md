@@ -29,7 +29,7 @@
      ---
     
  ## introduction
-This document provides a Standard Operating Procedure (SOP) for **installing**, **updating**, and **removing software** on **Ubuntu** systems using the `apt` package manager.It also includes commonly used commands and flags.
+This document provides a Standard Operating Procedure (SOP) for **installing**, **updating**, and **removing software** on **Ubuntu** systems using the `apt` package manager. It also includes commonly used commands and flags.
 
 
 ---
