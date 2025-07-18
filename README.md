@@ -117,6 +117,12 @@ dpkg -l
 This Standard Operating Procedure (SOP) provides a structured approach for managing software on Ubuntu systems. By following these steps, users can efficiently handle package installation, updates, configuration, and removal using tools like `apt` and `snap`. Consistent software management not only improves system stability and performance but also ensures better security and resource optimization. 
 
 ---
+| Name          | Email                                |
+| ------------- | ------------------------------------ |
+| Aryan Mishra  | aryan.mishra@mygurukulam.co          |
+
+---
+
 ## References
 | Name                                                  |              References                                                              
 |-----------------------------------------------------|--------------------------------------------------------------------------|
