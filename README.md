@@ -127,5 +127,4 @@ This Standard Operating Procedure (SOP) provides a structured approach for manag
 | Name                                                  |              References                                                              
 |-----------------------------------------------------|--------------------------------------------------------------------------|
 |  Ubuntu Official Documentation Package Management: | [Link](https://help.ubuntu.com/lts/serverguide/apt.html)                         |
-|  APT – Advanced Package Tool (Ubuntu Wiki):        |  [Link](https://wiki.ubuntu.com/Apt)                                             |
 |  Debian Manpages – apt(8):                         | [Link](https://manpages.debian.org/bullseye/apt/apt.8.en.html)                   |
