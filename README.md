@@ -23,7 +23,7 @@
 - [List Installed Packages](#list-installed-packages)
 - [Best Practices](#best-practices)
 - [Conclusion](#Conclusion)
-- [Contact Information](#Contact Information)
+- [Contact Information](#Contact-Information)
 - [References](#References)
 
 
