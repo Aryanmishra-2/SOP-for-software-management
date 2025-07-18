@@ -87,7 +87,6 @@ sudo apt remove <package-name> -y
 ## Clean Up Unused Files
 ```bash
 sudo apt autoremove        # Remove unused dependencies
-sudo apt autoclean         # Clean up partial package files
 sudo apt clean             # Clear local package cache
 ```
 ---
